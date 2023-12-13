@@ -1,1 +1,11 @@
-Food-Recognition : Explore the flavors of Tunisia with our image recognition system. Snap a photo of a Tunisian dish, and our AI-powered app will identify it, providing you with cultural insights and culinary knowledge. Discover the essence of Tunisian cuisine with a simple click.
+# VN_Food-Recognition
+Mô hình nhận biết món ăn Việt Nam thông qua ảnh
+
+# Data
+[Dataset](https://www.kaggle.com/datasets/quandang/vietnamese-foods/data?fbclid=IwAR1KhQoqLrEHguUkvFKzkwWO_XGiUKjW6ok6qjW81hbTzPwroj_LIk4Wa54) - A Dataset for Vietnamese Food Images
+
+Ở trong link trên gồm 30 món ăn của Việt Nam, ở đây chúng tôi sử dụng 12 món ăn với các nhãn đanhs dấu sẽ là :
+LABELS = ['Banh chung','Banh mi', 'Banh tet', 'Banh trang', 'Banh xeo', 'Bun', 'Com tam', 'Goi cuon', 'Pho', 'Bun dau mam tom', 'Nem chua', 'Chao long']
+
+# Model 
+EfficientNetB0
